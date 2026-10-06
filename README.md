@@ -76,8 +76,3 @@ in `NAV_ITEMS` in `app/AppShell.tsx`.
 5. **Ask the agreement.** The chat over the BCNU documents, citing articles.
 6. **Other agreements.** PSA, CBA and employer-specific agreements as extra rule sets.
 
-## Testing with a nurse
-
-Have her enter the shifts from her last pay period, set the pay period date to match her pay stub,
-and compare the Pay screen's total with the gross on the stub. Every difference points to a rule to
-fix. **Settings → Copy shifts as CSV** lets her send you what she entered.
