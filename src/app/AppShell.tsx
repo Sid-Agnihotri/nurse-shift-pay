@@ -52,6 +52,10 @@ export function AppShell() {
         <p className="nav-foot">
           Estimates from the BC nurses' collective agreement. Not your official pay.
         </p>
+
+        <p className="nav-foot">
+          Building it for trouble hehe
+        </p>
       </nav>
 
       <main className="content">{PAGES[route]()}</main>
