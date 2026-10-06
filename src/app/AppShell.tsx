@@ -49,13 +49,11 @@ export function AppShell() {
             </li>
           ))}
         </ul>
-        <p className="nav-foot">
-          Estimates from the BC nurses' collective agreement. Not your official pay.
-        </p>
 
-        <p className="nav-foot">
-          Building it for trouble hehe
-        </p>
+        <div className="nav-foot">
+          <p>Estimates from the BC nurses' collective agreement. Not your official pay.</p>
+          <p>Building it for trouble hehe</p>
+        </div>
       </nav>
 
       <main className="content">{PAGES[route]()}</main>
